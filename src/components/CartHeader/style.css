@@ -1,0 +1,32 @@
+.CartHeader-Container {
+    margin: 0px 360px;  
+  }
+.Columns {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  text-align: center;
+ padding:15px;
+}
+
+.hItem {
+  text-align: left;
+  min-width: 180px;
+}
+.hDescr {
+  text-align: left;
+  margin-left:15px;
+  min-width: 300px;
+}
+.hQuant {
+    margin-left:65px;
+    min-width: 120px;
+}
+.hPrice {
+    margin-left:105px;
+    min-width: 180px;
+}
+.hDel {
+    margin-left:115px;
+    min-width: 115px;
+}

@@ -1,0 +1,77 @@
+.HeaderBot {
+  margin: 0px;
+  padding: 0px;
+  height: 85px;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.2;
+}
+.Header-Container {
+  margin: 0px 360px;
+}
+
+.Header-Bot {
+  margin: 0px;
+  padding: 0px;
+  height: 86px;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  font-size: 14px;
+}
+.ShopInfo {
+  margin-left: 15px;
+  min-width: 275px;
+  width: 275px;
+  font-size: 30px;
+  font-family: "DearJoe";
+  font-style: italic;
+}
+.ShopInfo img{
+  vertical-align: middle;
+}
+
+.Search {
+  margin-left: 20px;
+  min-width: 275px;
+  padding-left: 15px;
+  padding-right: 30px;
+}
+.Search form {
+  width: 225px;
+  border-bottom: 1px solid black;
+}
+.Search input {
+  font-size: 14px;
+  border: 0px;
+}
+.SearchButton{
+  float:right;
+}
+
+.User {
+  min-width: 170px;
+  margin-left: 300px;
+  font-size: 14px;
+  font-family: "HelveticaNeueCyr";
+}
+.User img{
+  vertical-align: middle;
+}
+.User span {
+  padding-left: 8px;
+}
+.ShopCart {
+  min-width: 116px;
+
+  text-align: left;
+}
+.ShopCart img {
+  float: left;
+  vertical-align: middle;
+}
+.ShopCart span {
+  padding-left: 8px;
+  font-size: 12px;
+}

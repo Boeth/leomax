@@ -1,0 +1,78 @@
+.CartItem{
+    font-family: "Roboto";
+color: rgb(0, 0, 0);
+line-height: 1.2;
+display: flex;
+flex-direction: row; 
+height: 180px;
+padding-left: 15px;
+}
+.image{
+ width:180px;
+ 
+
+}
+.Description{
+    min-width:300px;
+    min-height: 180px;
+    margin-left: 20px;  
+}
+
+.name, .color , .size{ 
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.code{
+    margin-top:20px;
+    margin-bottom:20px; 
+    font-size: 14px;    
+    color: rgb(128, 128, 128);   
+    text-align: left;     
+}
+.quantity{
+    min-width: 120px;
+    min-height: 180px;
+    margin-left: 64px; 
+    font-size: 18px;
+    font-family: "HelveticaNeueCyr";      
+    text-align: center; 
+    
+}
+.quantity button{  
+    margin: 0px 15px;      
+    padding: 0;
+    border: none;
+    background: none; 
+    font-size: 20px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(141, 141, 141);
+}
+.quantity button:hover{
+    color :rgb(255, 108, 0);
+}
+
+.price {
+    min-width: 180px;
+    min-height: 180px;
+    margin-left: 104px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;     
+}
+
+.delete{
+    min-width: 180px;
+    min-height: 180px;
+    margin-left: 160px;
+ 
+}
+.delete input{
+    padding: 0;
+    border: none;
+    background: none; 
+   
+}
+

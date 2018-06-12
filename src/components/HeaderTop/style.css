@@ -1,0 +1,48 @@
+.HeaderTop {
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+  background-color: #e4e4e4;
+
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: 1.2;
+}
+.Header-Container {
+  margin: 0px 360px;
+}
+.Header-Top { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.Header-Top img {
+  vertical-align: middle;
+}
+.Header-Top span {
+  padding-left: 4px;
+}
+.Phone {
+  min-width: 330px;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 15px;
+}
+.Phone span {
+  font-size: 12px;
+  padding: 0px 3px;
+}
+.StarBlog {
+  margin-left: 195px;
+  min-width: 150px;
+}
+.Youtube {
+  margin-left: 20px;
+  min-width: 230px;
+}
+.Stream {
+  margin-left: 32px;
+  min-width: 220px;
+}

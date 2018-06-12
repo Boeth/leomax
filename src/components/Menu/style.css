@@ -1,0 +1,81 @@
+.Menu {
+  height: 50px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  border-top: 1px solid rgb(228, 228, 228);
+  font-size: 16px;
+  font-family: "Roboto";
+  line-height: 1.2;
+  text-align: center;
+}
+.Tab-Top {
+  height: 50px;
+  background-color: #e4e4e4;
+}
+.Tab-Bot {
+  min-height: 40px;
+  border-bottom: 2px solid rgb(228, 228, 228);
+}
+.Menu-Container {
+  margin: 0px 360px;
+}
+.tabs {
+  list-style-type: none;
+  position: relative;
+  padding: 0px;
+  margin: 0px 360px;
+}
+.tabs:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.tabs li {
+  float: left;
+  padding: 15px 10px 15px 10px;
+}
+.tabs li:first-child {
+  margin-left: 5px;
+}
+.tabs li > input {
+  display: none;
+}
+.tabs li > label {
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.tabs .tab-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  overflow-y: auto;
+  margin: 15px;
+  margin-top: 26px;
+
+  font-size: 14px;
+
+  text-align: center;
+  min-height: 30px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+}
+.tab-content span {
+  margin-left: 36px;
+}
+.tab-content span:first-child {
+  margin-left: 0px;
+}
+
+.tabs li > input:checked + label {
+  border-bottom: 3px solid rgb(255, 108, 0);
+  padding-bottom: 15px;
+}
+.tabs li > input:checked ~ .tab-content {
+  display: block;
+}

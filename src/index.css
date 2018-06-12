@@ -1,0 +1,13 @@
+body {
+    margin:0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+@font-face {
+    font-family: 'DearJoe';
+    src: local('DearJoe'), url(./static/fonts/DearJoe.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'HelveticaNeueCyr';
+    src: local('HelveticaNeueCyr'), url(./static/fonts/HelveticaNeueCyr.ttf) format('truetype');
+  }

@@ -1,0 +1,55 @@
+.Additional {
+  margin: 0px;
+  padding: 0px;
+  height: 595px;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  font-size: 16px;
+  text-align: center;
+}
+.Additional-Container {
+  margin: 95px 360px;
+}
+
+.addLabel{      
+  font-size: 22px; 
+
+}
+.addLabel h2{
+width: 100%; 
+text-align: center; 
+font-size: 22px;  
+border-bottom: 1px solid rgb(217, 217, 217); 
+line-height: 2px;
+margin-top: 10px;
+margin-left:10px;
+
+  
+}
+.addLabel h2 span { 
+background:#fff; 
+padding:0 16px; 
+}
+
+.addList {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+}
+.itemPreview {
+  width: 276px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.itemPreview p {
+  margin-top: 4px;
+  margin-bottom: 8px;
+
+  padding: 0px;
+}
+
+.itemPreview span {
+  font-weight: bold;
+}
